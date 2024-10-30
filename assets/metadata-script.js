@@ -1,0 +1,1 @@
+//this script is left empty so that an inline script could be attached to it

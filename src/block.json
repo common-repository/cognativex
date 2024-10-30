@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/cx-widget",
+  "version": "0.1.0",
+  "title": "CognativeX Widget",
+  "category": "widgets",
+  "icon": "",
+  "description": "CognativeX Widget",
+  "supports": {
+	"html": false
+  },
+  "textdomain": "test-block-npm",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+	"content": {
+	  "type": "string"
+	},
+	"textColor": {
+	  "type": "string"
+	},
+	"widgetID": {
+	  "type": "string"
+	}
+  }
+}
